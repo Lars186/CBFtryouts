@@ -11,7 +11,7 @@ This project contains some 1D insights on using control barrier functions. It is
 
 
 ## 1DOF
-- Pendulum.py
+- Pendulum.py is a 1dof pendulum without damping. A simple PD controller gets used and energy gets limited. A lot of nice looking plots are created.
 - Movingmass.py contains position constraints on a simple 1D moving mass, the input is the force.
 - movingmassMultiConstraint.py has constrains velocity and position by using 2 ASICs. This is not a nice way of solving
 - EnergyConstraints.py limits kinetic energy for the moving mass.
