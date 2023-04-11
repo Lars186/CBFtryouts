@@ -6,14 +6,14 @@ This project contains some 1D insights on using control barrier functions. It is
 
 
 ## multiple DOF
-3dof.py is a 3DOF pendulum hanging down. The barrier limits kinetic energy for every joint.
-pendcart_hvel.py is an underactuated case which limits total kinetic energy. This project is abandoned as quadratic programs quickly become unfeasible.
+- 3dof.py is a 3DOF pendulum hanging down. The barrier limits kinetic energy for every joint.
+- pendcart_hvel.py is an underactuated case which limits total kinetic energy. This project is abandoned as quadratic programs quickly become unfeasible.
 
 
 ## 1DOF
-Pendulum.py
-Movingmass.py contains position constraints on a simple 1D moving mass, the input is the force.
-movingmassMultiConstraint.py has constrains velocity and position by using 2 ASICs. This is not a nice way of solving
-EnergyConstraints.py limits kinetic energy for the moving mass.
+- Pendulum.py
+- Movingmass.py contains position constraints on a simple 1D moving mass, the input is the force.
+- movingmassMultiConstraint.py has constrains velocity and position by using 2 ASICs. This is not a nice way of solving
+- EnergyConstraints.py limits kinetic energy for the moving mass.
 
 
